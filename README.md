@@ -1,4 +1,4 @@
-# jws-authentication-using-Next.js
+# jwt-authentication-using-Next.js
 
 Description
 This project implements JWT authentication for user login and signup functionalities with CryptoJS encrytion, usernames, emails, and passwords securely stored in MongoDB.
@@ -21,7 +21,7 @@ Technologies Used:
 
 Installation
 Clone the repository:
-bash
+```bash
 npx create-next-app app
 Install dependencies:
 npm install cryptojs
