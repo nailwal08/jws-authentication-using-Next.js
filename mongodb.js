@@ -8,7 +8,7 @@ async function dbConnect() {
     return;
   }
 
-  const db = await mongoose.connect('mongodb://localhost:27017', {
+  const db = await mongoose.connect('MONGOSTRING', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
